@@ -4,13 +4,13 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Portfolio</title>
+    <title>Yiqing Zhao | Portfolio</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="mediaqueries.css" />
   </head>
   <body>
     <nav id="desktop-nav">
-      <div class="logo">John Doe</div>
+      <div class="logo">Yiqing Zhao</div>
       <div>
         <ul class="nav-links">
           <li><a href="#about">About</a></li>
@@ -20,35 +20,16 @@
         </ul>
       </div>
     </nav>
-    <nav id="hamburger-nav">
-      <div class="logo">John Doe</div>
-      <div class="hamburger-menu">
-        <div class="hamburger-icon" onclick="toggleMenu()">
-          <span></span>
-          <span></span>
-          <span></span>
-        </div>
-        <div class="menu-links">
-          <li><a href="#about" onclick="toggleMenu()">About</a></li>
-          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
-          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
-          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
-        </div>
-      </div>
-    </nav>
     <section id="profile">
       <div class="section__pic-container">
-        <img src="./assets/profile-pic.png" alt="John Doe profile picture" />
+        <img src="./assets/profile-pic.jpg" alt="Yiqing Zhao profile picture" />
       </div>
       <div class="section__text">
         <p class="section__text__p1">Hello, I'm</p>
-        <h1 class="title">John Doe</h1>
-        <p class="section__text__p2">Frontend Developer</p>
+        <h1 class="title">Yiqing Zhao</h1>
+        <p class="section__text__p2">Software Engineer</p>
         <div class="btn-container">
-          <button
-            class="btn btn-color-2"
-            onclick="window.open('./assets/resume-example.pdf')"
-          >
+          <button class="btn btn-color-2" onclick="window.open('./assets/Yiqing_Zhao_resume.pdf')">
             Download CV
           </button>
           <button class="btn btn-color-1" onclick="location.href='./#contact'">
@@ -56,326 +37,261 @@
           </button>
         </div>
         <div id="socials-container">
-          <img
-            src="./assets/linkedin.png"
-            alt="My LinkedIn profile"
-            class="icon"
-            onclick="location.href='https://linkedin.com/'"
-          />
-          <img
-            src="./assets/github.png"
-            alt="My Github profile"
-            class="icon"
-            onclick="location.href='https://github.com/'"
-          />
+          <img src="./assets/linkedin.png" alt="LinkedIn" class="icon" onclick="location.href='https://www.linkedin.com/in/yiqing-zhao-32a714216/'" />
+          <img src="./assets/github.png" alt="GitHub" class="icon" onclick="location.href='https://github.com/zhaoyq0429'" />
         </div>
       </div>
     </section>
-    <section id="about">
-      <p class="section__text__p1">Get To Know More</p>
-      <h1 class="title">About Me</h1>
-      <div class="section-container">
-        <div class="section__pic-container">
-          <img
-            src="./assets/about-pic.png"
-            alt="Profile picture"
-            class="about-pic"
-          />
-        </div>
-        <div class="about-details-container">
-          <div class="about-containers">
-            <div class="details-container">
-              <img
-                src="./assets/experience.png"
-                alt="Experience icon"
-                class="icon"
-              />
-              <h3>Experience</h3>
-              <p>2+ years <br />Frontend Development</p>
+      <section id="about">
+        <p class="section__text__p1">Get To Know More</p>
+        <h1 class="title">About Me</h1>
+        <div class="section-container">
+          <div class="section__pic-container">
+            <img src="./assets/about-pic.jpg" alt="Profile picture" class="about-pic" />
+          </div>
+          <div class="about-details-container">
+            <div class="about-containers">
+              <div class="details-container">
+                <img src="./assets/experience.png" alt="Experience icon" class="icon" />
+                <h3>Experience</h3>
+                <p>2+ years <br />Software Development</p>
+              </div>
+              <div class="details-container">
+                <img src="./assets/education.png" alt="Education icon" class="icon" />
+                <h3>Education</h3>
+                <p>B.Sc. Mathematics & Physics<br />M.Sc. Computational Finance<br />M.Sc. Computer Science</p>
+              </div>
             </div>
-            <div class="details-container">
-              <img
-                src="./assets/education.png"
-                alt="Education icon"
-                class="icon"
-              />
-              <h3>Education</h3>
-              <p>B.Sc. Bachelors Degree<br />M.Sc. Masters Degree</p>
+            <div class="text-container">
+              <p>
+                I am a Software Engineer with expertise in backend development, cloud computing, and data-driven applications. My experience spans working with Java, Python, JavaScript/TypeScript, React, Node.js, Spring Boot, AWS, and MongoDB. Passionate about building scalable and efficient systems, I thrive in collaborative environments where I can solve complex problems and contribute to impactful projects.
+              </p>
+            </div>
+            <div class="text-container">
+              <p>
+                <strong>Fun fact:</strong> I have a two-year-old border collie. I love him so much that I spend most of my days with him, taking him hiking every weekend.
+              </p>
             </div>
           </div>
-          <div class="text-container">
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic quis
-              reprehenderit et laborum, rem, dolore eum quod voluptate
-              exercitationem nobis, nihil esse debitis maxime facere minus sint
-              delectus velit in eos quo officiis explicabo deleniti dignissimos.
-              Eligendi illum libero dolorum cum laboriosam corrupti quidem,
-              reiciendis ea magnam? Nulla, impedit fuga!
-            </p>
-          </div>
         </div>
-      </div>
-      <img
-        src="./assets/arrow.png"
-        alt="Arrow icon"
-        class="icon arrow"
-        onclick="location.href='./#experience'"
-      />
+        <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#experience'" />
+      </section>
+      <section id="skills">
+        <p class="section__text__p1">Explore My</p>
+        <h1 class="title">Technical Skills</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Programming Languages</h2>
+                    <div class="article-container" style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px; align-items: center;">
+                        <article>
+                            <img src="./assets/checkmark.png" class="icon" />
+                            <div><h3>Python</h3></div>
+                            <div><p>Experienced</p></div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" class="icon" />
+                            <h3>Java</h3>
+                            <p>Experienced</p>
+                        </article>
+                        <article>
+                          
+                            <img src="./assets/checkmark.png" class="icon" />
+                            <h3>JavaScript/TypeScript</h3>
+                            <div><p>Intermediate</p></div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" class="icon" />
+                            <h3>C/C++</h3>
+                            <p>Intermediate</p>
+                        </article>
+                    </div>
+                </div>
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Frameworks & Tools</h2>
+                    <div class="article-container" style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px; align-items: center;">
+                        <article>
+                            <img src="./assets/checkmark.png" class="icon" />
+                            <h3>React</h3>
+                            <p>Intermediate</p>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" class="icon" />
+                            <h3>Node.js</h3>
+                            <p>Intermediate</p>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" class="icon" />
+                            <h3>Spring Boot</h3>
+                            <p>Intermediate</p>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" class="icon" />
+                            <h3>AWS</h3>
+                            <p>Intermediate</p>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" class="icon" />
+                            <h3>MongoDB</h3>
+                            <p>Intermediate</p>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" class="icon" />
+                            <h3>GraphQL</h3>
+                            <p>Basic</p>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img src="./assets/arrow.png" class="icon arrow" onclick="location.href='./#contact'" />
     </section>
+    
+      
     <section id="experience">
       <p class="section__text__p1">Explore My</p>
       <h1 class="title">Experience</h1>
       <div class="experience-details-container">
-        <div class="about-containers">
-          <div class="details-container">
-            <h2 class="experience-sub-title">Frontend Development</h2>
-            <div class="article-container">
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>HTML</h3>
-                  <p>Experienced</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>CSS</h3>
-                  <p>Experienced</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>SASS</h3>
-                  <p>Intermediate</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>JavaScript</h3>
-                  <p>Basic</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>TypeScript</h3>
-                  <p>Basic</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>Material UI</h3>
-                  <p>Intermediate</p>
-                </div>
-              </article>
-            </div>
-          </div>
-          <div class="details-container">
-            <h2 class="experience-sub-title">Frontend Development</h2>
-            <div class="article-container">
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>PostgreSQL</h3>
-                  <p>Basic</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>Node JS</h3>
-                  <p>Intermediate</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>Express JS</h3>
-                  <p>Intermediate</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>Git</h3>
-                  <p>Intermediate</p>
-                </div>
-              </article>
-            </div>
+        <div class="details-container">
+          <h2 class="experience-sub-title">Software Engineer Intern - For Future</h2>
+          <p>Designed and implemented a backend system from scratch using Java, Spring Boot, and MongoDB, enabling seamless frontend-backend communication.</p>
+          <div class="for-future-images" style="display: flex; justify-content: center; gap: 10px; flex-wrap: wrap;">
+            <img src="./assets/for_future1.png" alt="For Future Interface 1" class="experience-img" style="width: 30%; height: auto; object-fit: cover;" />
+            <img src="./assets/for_future3.png" alt="For Future Interface 3" class="experience-img" style="width: 30%; height: auto; object-fit: cover;" />
+            <img src="./assets/for_future4.png" alt="For Future Interface 4" class="experience-img" style="width: 30%; height: auto; object-fit: cover;" />
           </div>
         </div>
+        </div>
+        <div class="details-container">
+          <h2 class="experience-sub-title">Artificial Intelligence Engineer Intern - Radical AI</h2>
+          <p>Developed an interactive quiz generation system using Streamlit, LangChain, and Vertex AI, optimizing learning through AI-driven content generation.</p>
+        </div>
+        <div class="details-container">
+          <h2 class="experience-sub-title">Software Engineer Intern - Kennedys Law LLP</h2>
+          <p>Built a machine learning-powered ESG risk analysis platform, optimizing sentiment analysis and data classification using NLP and supervised learning models.</p>
+          <button class="btn btn-color-2" onclick="window.open('./assets/kennedys-law-essay.pdf')">
+            Read More
+          </button>
+          <img src="./assets/github.png" alt="GitHub" class="icon" onclick="location.href='https://github.com/zhaoyq0429/ESG_work'" />
+        </div>
       </div>
-      <img
-        src="./assets/arrow.png"
-        alt="Arrow icon"
-        class="icon arrow"
-        onclick="location.href='./#projects'"
-      />
+      <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#projects'" />
     </section>
+    
     <section id="projects">
-      <p class="section__text__p1">Browse My Recent</p>
+      <p class="section__text__p1">Browse My</p>
       <h1 class="title">Projects</h1>
-      <div class="experience-details-container">
-        <div class="about-containers">
-          <div class="details-container color-container">
-            <div class="article-container">
-              <img
-                src="./assets/project-1.png"
-                alt="Project 1"
-                class="project-img"
-              />
-            </div>
-            <h2 class="experience-sub-title project-title">Project One</h2>
-            <div class="btn-container">
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/'"
-              >
-                Github
-              </button>
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/'"
-              >
-                Live Demo
-              </button>
-            </div>
-          </div>
-          <div class="details-container color-container">
-            <div class="article-container">
-              <img
-                src="./assets/project-2.png"
-                alt="Project 2"
-                class="project-img"
-              />
-            </div>
-            <h2 class="experience-sub-title project-title">Project Two</h2>
-            <div class="btn-container">
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/'"
-              >
-                Github
-              </button>
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/'"
-              >
-                Live Demo
-              </button>
-            </div>
-          </div>
-          <div class="details-container color-container">
-            <div class="article-container">
-              <img
-                src="./assets/project-3.png"
-                alt="Project 3"
-                class="project-img"
-              />
-            </div>
-            <h2 class="experience-sub-title project-title">Project Three</h2>
-            <div class="btn-container">
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/'"
-              >
-                Github
-              </button>
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/'"
-              >
-                Live Demo
-              </button>
+      <div class="projects-container">
+    
+        <div class="project-card">
+          <h2 class="project-title">AI Fitness Coach</h2>
+          <p class="project-description">
+            The AI Fitness Coach is an innovative application designed to generate personalized weekly
+             workout plans based on user inputs, including height, weight, age, gender, fitness level,
+              and specific goals such as weight loss or muscle gain. By leveraging AI and integrating
+               OpenAI and Google APIs, this project aims to provide users with tailored exercise
+                recommendations, ensuring a user-friendly and effective fitness experience to enhance their fitness journeys.
+          </p>
+          <p class="project-tech"><strong>Technologies:</strong> OpenAI ChatGPT API, Google Gemini API, MongoDB, JavaScript(Next.js), Tailwind CSS, Jest and React Testing Library</p>
+          <div>
+          <img src="./assets/ai-fitness-coach.jpg" alt="AI Fitness Coach" class="project-img" /></div>
+          <button class="btn btn-color-2" onclick="window.open('https://github.com/zhaoyq0429/AIFitnessCoach?tab=readme-ov-file')">
+            View Project
+          </button>
+        </div>
+    
+        <!-- Project 2: Shopping Page -->
+        <div class="project-card">
+          <h2 class="project-title">Shoopy - Shopping Page</h2>
+          <p class="project-description">
+            A fully functional e-commerce platform where users can browse products, search items, view profiles,
+            sign up, log in, and see detailed seller/buyer information. Built with a modern MERN stack, 
+            the platform ensures a seamless shopping experience with intuitive navigation and 
+            secure transactions. Users can explore a variety of products, communicate with sellers, 
+            manage their profiles, and track their purchases efficiently.
+          </p>
+          <p class="project-tech"><strong>Technologies:</strong> React, Node.js, Express, MongoDB, Firebase</p>
+          <img src="./assets/shopping-page.png" alt="Shopping Page" class="project-img" />
+          <div class="btn-group">
+            <div>
+            <button class="btn btn-color-2" onclick="window.open('https://main--guileless-cranachan-0ac1f5.netlify.app/#/shopping/profiles/654ff56dea7ead465908d1e4')">
+              Live Demo
+            </button>
+          </div><div>
+            <button class="btn btn-color-2" onclick="window.open('https://github.com/zhaoyq0429/Shopping')">
+              Frontend Code
+            </button>
+          </div><div>
+            <button class="btn btn-color-2" onclick="window.open('https://github.com/zhaoyq0429/Shopping_Server')">
+              Backend Code
+            </button>
             </div>
           </div>
         </div>
+
+        <!-- Project 3: Petsgram -->
+        <div class="project-card">
+          <h2 class="project-title">Petsgram - Social Media for Pets</h2>
+          <p class="project-description">
+            Petsgram is a photo-sharing and social app, designed similarly to Instagram but entirely focused on pets. 
+            Users can create profiles for their pets, post images, and interact through likes and direct messages, 
+            while discovering new pets from around the world. This app gives pet lovers a platform to make new friends, 
+            get new ideas, and even find help with issues they face with their pets.
+          </p>
+          <p class="project-tech"><strong>Technologies:</strong> Swift, Firebase, CocoaPods, SDWebImage</p>
+          <ul class="project-features">
+            <li><strong>Pet Profiles:</strong> Users can create individual profiles for their pets.</li>
+            <li><strong>Photo Sharing:</strong> Post and share images of your pets.</li>
+            <li><strong>Social Interactions:</strong> Like, comment, and send direct messages.</li>
+            <li><strong>Discovery:</strong> Find and follow new pets from around the world.</li>
+            <li><strong>Firebase Integration:</strong> Authentication, database, analytics, and storage.</li>
+            <li><strong>SDWebImage:</strong> Handles efficient image loading and caching.</li>
+          </ul>
+          <button class="btn btn-color-2" onclick="window.open('https://github.com/zhaoyq0429/cs5520_group2')">
+            View Project
+          </button>
+          <button class="btn btn-color-2" onclick="window.open('https://docs.google.com/presentation/d/1DQ2DDZIfBoFt_DmuvB1780cjTSqAwJyyBtkITbugNcw/edit?usp=sharing')">
+            Project PPT
+          </button>
+        </div>
+
+    
+        <!-- Project 4: CS5008 Real-Time Socket -->
+        <div class="project-card">
+          <h2 class="project-title">Real-Time Socket Project Using C</h2>
+          <p class="project-description">
+            A real-time socket programming project written in C. This project focuses on implementing 
+            real-time network communication using sockets, enabling efficient data transfer between 
+            client and server. The system handles multiple connections, ensures reliable message delivery, 
+            and demonstrates fundamental concepts of networking and concurrency.
+          </p>
+          <p class="project-tech"><strong>Technologies:</strong> C, Socket Programming, Multi-threading, TCP/IP</p>
+          <button class="btn btn-color-2" onclick="window.open('https://github.com/zhaoyq0429/CS5008_Final')">
+            View Project
+          </button>
+        </div>
+    
       </div>
-      <img
-        src="./assets/arrow.png"
-        alt="Arrow icon"
-        class="icon arrow"
-        onclick="location.href='./#contact'"
-      />
+      <img src="./assets/arrow.png" class="icon arrow" onclick="location.href='./#contact'" />
     </section>
+    
+
     <section id="contact">
       <p class="section__text__p1">Get in Touch</p>
       <h1 class="title">Contact Me</h1>
       <div class="contact-info-upper-container">
         <div class="contact-info-container">
-          <img
-            src="./assets/email.png"
-            alt="Email icon"
-            class="icon contact-icon email-icon"
-          />
-          <p><a href="mailto:examplemail@gmail.com">Example@gmail.com</a></p>
+          <img src="./assets/email.png" alt="Email icon" class="icon contact-icon email-icon" />
+          <p><a href="mailto:zhao.yiq@northeastern.edu">zhao.yiq@northeastern.edu</a></p>
         </div>
         <div class="contact-info-container">
-          <img
-            src="./assets/linkedin.png"
-            alt="LinkedIn icon"
-            class="icon contact-icon"
-          />
-          <p><a href="https://www.linkedin.com">LinkedIn</a></p>
+          <img src="./assets/linkedin.png" alt="LinkedIn icon" class="icon contact-icon" />
+          <p><a href="https://www.linkedin.com/in/yiqing-zhao-32a714216/">LinkedIn</a></p>
         </div>
       </div>
     </section>
     <footer>
-      <nav>
-        <div class="nav-links-container">
-          <ul class="nav-links">
-            <li><a href="#about">About</a></li>
-            <li><a href="#experience">Experience</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
-          </ul>
-        </div>
-      </nav>
-      <p>Copyright &#169; 2023 John Doe. All Rights Reserved.</p>
+      <p>Copyright &#169; 2025 Yiqing Zhao. All Rights Reserved.</p>
     </footer>
     <script src="script.js"></script>
   </body>
